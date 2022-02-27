@@ -16,27 +16,29 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10%;
+
 }
 
 header {
-display: flex;
-justify-content: center;
-text-align: center;
-justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
 }
 
 header ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
-header li{
+header li {
     display: inline-block;
     width: 250px;
 }
 
-header a{
+header a {
     text-decoration: none;
     width: 100px;
     display: block;
@@ -49,3 +51,12 @@ header a{
     color: #d9bab8;
     background-color: black;
 }
+
+.intro {
+    display: flex;
+    background-color: #d9bab8;
+    height: 115px;
+    width: 250px;
+    border: solid 5px black;
+}
+
