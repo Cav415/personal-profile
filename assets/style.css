@@ -6,7 +6,6 @@
 .hero {
     height: 800px;
     display: flex;
-    border-radius: 10%;
 }
 
 .hero-content {
@@ -15,7 +14,7 @@
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 10%;
+    border-top-left-radius: 140px;
 
 }
 
@@ -76,8 +75,9 @@ header a {
     display: flex;
     flex-wrap: wrap;
     height: 550px;
-    background-color: salmon;
-    justify-content: center
+    background-color: #10161c;
+    justify-content: center;
+    text-align: center;
 }
 
 .profile-pic {
@@ -85,14 +85,17 @@ header a {
     width: 350px;
     margin: 40px;
     margin-top: 100px;
-    border: solid white 10px;
+    border: darkblue solid 10px;
     float: left;
+    background-color: black;
 }
 
 .about-info {
     height: 120px;
     width: 350px;
-    border: solid 10px blue;
+    /* border: solid 10px blue; */
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
     float: right;
     flex-direction: column;
     text-align: center;
@@ -100,12 +103,19 @@ header a {
     margin-left: -380px;
 }
 
+.about-info span {
+    color: salmon;
+}
+
 .about-list {
     margin-top: 250px;
     height: 200px;
     width: 350px;
-    border: solid black 10px;
+    border: solid #2f4255 2px;
     float: right;
+    color: white;
+    background-color: #1f2c38;
+    font-family: 'Fjalla One', sans-serif;
     text-align: center;
 }
 
@@ -116,5 +126,13 @@ header a {
     gap: 30px;
     text-align: start;
     list-style: none;
-    
+}
+
+
+/* Skills Section */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+    background-color: #1a252f;
 }
