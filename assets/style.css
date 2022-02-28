@@ -52,11 +52,18 @@ header a {
     background-color: black;
 }
 
+
 .intro {
     display: flex;
+    flex-direction: column;
     background-color: #d9bab8;
     height: 115px;
     width: 250px;
     border: solid 5px black;
 }
 
+.pullRight {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
