@@ -168,3 +168,24 @@ header a {
     margin-left: 40px;
     color: white;
 }
+
+/* Projects Section */
+
+
+.projects-content {
+    display: flex;
+    height: 600px;
+    background-color: #10161c;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 140px;
+}
+
+.icon {
+
+    height: 250px;
+    width: 350px;
+    border: solid 1px yellow;
+
+}
