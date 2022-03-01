@@ -141,7 +141,8 @@ header a {
     display: flex;
     height: 600px;
     background-color: #1a252f;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .skills-content {
@@ -155,8 +156,7 @@ header a {
     height: 250px;
     width: 350px;
     border: solid 1px yellow;
-    margin: 120px;
-    margin-top: 40%;
+
 }
 
 .skill-2 {
@@ -165,6 +165,6 @@ header a {
     border: solid 5px #10161c;
     margin: 40px;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 40px;
     color: white;
 }
