@@ -143,6 +143,7 @@ header a {
     background-color: #1a252f;
     justify-content: center;
     align-items: center;
+    
 }
 
 .skills-content {
@@ -155,18 +156,20 @@ header a {
 .skill-1, .skill-3 {
     height: 250px;
     width: 350px;
-    border: solid 1px yellow;
-
+    border: solid #2f4255 2px;
+    background-color: #10161c;
+    color: white;
 }
 
 .skill-2 {
     height: 350px;
     width: 450px;
-    border: solid 5px #10161c;
+    border: solid #2f4255 2px;
     margin: 40px;
     margin-top: 100px;
     margin-left: 40px;
     color: white;
+    background-color: #10161c;
 }
 
 /* Projects Section */
