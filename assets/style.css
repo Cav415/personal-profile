@@ -2,15 +2,17 @@
     margin: 0;
     padding: 0;
 }
+
 div {
     border-radius: 15px;
 }
 
 
 
-ul  {
+ul {
     list-style: none;
 }
+
 /* Hero Section */
 .hero {
     height: 800px;
@@ -43,13 +45,14 @@ header ul li {
     position: relative;
 }
 
-header a:hover{
+header a:hover {
     color: salmon;
     background-color: #1a252f;
     transition: ease-in 0.2s;
 }
+
 header a {
-    
+
     width: 100px;
     display: block;
     padding: 10px 20px;
@@ -60,7 +63,7 @@ header a {
     text-decoration: none;
     color: black;
     border-radius: 20px;
-    
+
 }
 
 
@@ -105,7 +108,7 @@ header a {
     float: left;
     color: white;
     background-color: #1f2c38;
-   
+
 
 
 }
@@ -155,9 +158,9 @@ header a {
     background-color: #1a252f;
     justify-content: center;
     align-items: center;
-    
+
     box-shadow: inset 2px 3px 5px #000000, 0px 1px 1px #333;
-    
+
 }
 
 .skills-content {
@@ -187,8 +190,8 @@ header a {
     margin-left: 40px;
     color: white;
     background-color: #10161c;
-    
-    
+
+
 }
 
 .skill-text {
@@ -196,6 +199,17 @@ header a {
 }
 
 /* Projects Section */
+.projects {
+    background-color: #10161c;
+    border-bottom-left-radius: 140px;
+}
+
+.center {
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+ 
+}
 
 .projects-content {
     display: flex;
@@ -208,28 +222,24 @@ header a {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    
+
 }
 
-.projects-content header{
-    display: inline-block;
-    margin-top: 5%;
-}
 
 .icon {
 
     height: 250px;
     width: 350px;
     border: solid 1px yellow;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #1f2c38;
-   border: solid #2f4255 2px;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2c38;
+    border: solid #2f4255 2px;
+
 }
 
-.icon:hover{
+.icon:hover {
     box-shadow: inset 2px 3px 5px #000000, 0px 1px 1px #333;
     transition: 0.3s;
 }
