@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+ul  {
+    list-style: none;
+}
 /* Hero Section */
 .hero {
     height: 800px;
@@ -57,10 +59,10 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    text-align: end;
+    text-align: center;
     height: 215px;
     width: 450px;
-    border: solid 5px black;
+    
 }
 
 .pullRight {
@@ -159,6 +161,7 @@ header a {
     border: solid #2f4255 2px;
     background-color: #10161c;
     color: white;
+
 }
 
 .skill-2 {
@@ -170,10 +173,14 @@ header a {
     margin-left: 40px;
     color: white;
     background-color: #10161c;
+    
+}
+
+.skill-text {
+    margin-top: 10%;
 }
 
 /* Projects Section */
-
 
 .projects-content {
     display: flex;
@@ -190,5 +197,9 @@ header a {
     height: 250px;
     width: 350px;
     border: solid 1px yellow;
-
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #1f2c38;
+   border: solid #2f4255 2px;
 }
