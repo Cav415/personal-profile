@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    background-color: #fff;
+}
+
+
 div {
     border-radius: 15px;
 }
@@ -17,6 +22,7 @@ ul {
 .hero {
     height: 800px;
     display: flex;
+
 }
 
 .hero-content {
@@ -26,6 +32,9 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     border-top-left-radius: 140px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
 
 }
 
@@ -66,6 +75,22 @@ header a {
 
 }
 
+.nav-adjust {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media (min-width: 88px) and (max-width: 1200px) {
+    .nav-adjust {
+       
+        margin-top: 125px;
+        margin-right: -80px;
+        
+    }
+}
+
 
 .intro {
     display: flex;
@@ -85,6 +110,14 @@ header a {
     justify-content: flex-end;
     width: 95%;
     margin-top: 150px;
+}
+
+@media (min-width: 88px) and (max-width: 1200px) {
+    .pullRight {
+        margin-top: 250px;
+        margin-right: 50px;
+        
+    }
 }
 
 /* End Hero Section */
@@ -110,19 +143,20 @@ header a {
     width: 350px;
     margin: 40px;
     margin-top: 100px;
-    border: darkblue solid 10px;
+    border: solid #2f4255 2px;
     float: left;
     color: white;
     background-color: #1f2c38;
     position: relative;
 }
 
-.about-content{
+.about-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
+
 .about-info {
     height: 120px;
     width: 350px;
@@ -132,8 +166,8 @@ header a {
     flex-direction: column;
     text-align: center;
     margin-top: 100px;
-    
-    
+
+
 }
 
 .about-info span {
@@ -141,7 +175,7 @@ header a {
 }
 
 .about-list {
-   margin: 25px;
+    margin: 25px;
     height: 200px;
     width: 350px;
     border: solid #2f4255 2px;
@@ -180,7 +214,7 @@ header a {
 .projects-content {
     display: flex;
     height: 600px;
-    background-color: #2f4255 ;
+    background-color: #2f4255;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
@@ -196,7 +230,7 @@ header a {
 
     height: 250px;
     width: 350px;
-    border: solid 1px ;
+    border: solid 1px;
     background-color: #1f2c38;
     border: solid #2f4255 2px;
     display: flex;
@@ -216,4 +250,3 @@ header a {
     box-shadow: inset 2px 3px 5px #000000, 0px 1px 1px #333;
     transition: 0.3s;
 }
-
