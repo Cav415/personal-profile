@@ -108,11 +108,13 @@ header a {
     float: left;
     color: white;
     background-color: #1f2c38;
-
-
-
+    position: relative;
 }
 
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+}
 .about-info {
     height: 120px;
     width: 350px;
@@ -122,7 +124,8 @@ header a {
     flex-direction: column;
     text-align: center;
     margin-top: 100px;
-    margin-left: -380px;
+    
+    
 }
 
 .about-info span {
@@ -151,70 +154,25 @@ header a {
 
 /* End About Section */
 
-/* Skills Section */
-.skills {
-    display: flex;
-    height: 600px;
-    background-color: #1a252f;
-    justify-content: center;
-    align-items: center;
-
-    box-shadow: inset 2px 3px 5px #000000, 0px 1px 1px #333;
-
-}
-
-.skills-content {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-}
-
-.skill-1, .skill-3 {
-    height: 250px;
-    width: 350px;
-    border: solid #2f4255 2px;
-    background-color: #10161c;
-    color: white;
-    box-shadow: inset 2px 3px 5px #000000, 0px 1px 1px #333;
-    border-radius: 15px;
-
-}
-
-.skill-2 {
-    height: 350px;
-    width: 450px;
-    border: solid #2f4255 2px;
-    margin: 40px;
-    margin-top: 100px;
-    margin-left: 40px;
-    color: white;
-    background-color: #10161c;
-
-
-}
-
-.skill-text {
-    margin-top: 10%;
-}
 
 /* Projects Section */
 .projects {
-    background-color: #10161c;
+    background-color: #2f4255;
     border-bottom-left-radius: 140px;
+    box-shadow: inset 2px 3px 5px #000000, 0px 1px 1px #333;
 }
 
 .center {
     color: white;
     text-align: center;
     justify-content: space-around;
- 
+
 }
 
 .projects-content {
     display: flex;
     height: 600px;
-    background-color: #10161c;
+    background-color: #2f4255 ;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
@@ -244,9 +202,3 @@ header a {
     transition: 0.3s;
 }
 
-
-@media  screen and (min-width:50%) and (max-width:75%) {
-    body {
-        background-color: blue;
-    }
-    }
