@@ -99,6 +99,13 @@ header a {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .profile-pic {
     height: 350px;
     width: 350px;
@@ -114,6 +121,8 @@ header a {
 .about-content{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .about-info {
     height: 120px;
@@ -133,7 +142,7 @@ header a {
 }
 
 .about-list {
-    margin-top: 250px;
+   margin: 25px;
     height: 200px;
     width: 350px;
     border: solid #2f4255 2px;
