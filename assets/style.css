@@ -124,7 +124,7 @@ header a {
 
 /* About Section */
 .about {
-    height: 550px;
+    /* height: 550px; */
     background-color: #10161c;
     justify-content: center;
     text-align: center;
@@ -213,7 +213,6 @@ header a {
 
 .projects-content {
     display: flex;
-    height: 600px;
     background-color: #2f4255;
     justify-content: center;
     justify-content: space-around;
